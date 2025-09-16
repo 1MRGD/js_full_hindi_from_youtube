@@ -30,10 +30,19 @@ console.log(valueInNumber_2) //0
 //let isLoggedIn = "GD" //true
 
 
-let booleanIsLoggedIn = Boolean(isLoggedIn)
-console.log(booleanIsLoggedIn);
+// let booleanIsLoggedIn = Boolean(isLoggedIn)
+// console.log(booleanIsLoggedIn);
 
 
+//1 => true ; 0 => False
+//"" => false
+//"gd" => true 
+
+let someNumber = 33
+
+let stringNumber = String(someNumber)
+console.log(stringNumber); // 33
+console.log(typeof(stringNumber)); // string
 
 
 
