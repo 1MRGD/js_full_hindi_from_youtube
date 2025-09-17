@@ -76,13 +76,12 @@ let str2 = " GD"
 
 
 // console.log((3+4) * 5 % 3); //2
-
 // console.log(+true); 
 // console.log(+"");
 
 
-let num1, num2, num3
- 2+2
+// let num1, num2, num3
+//  2+2/  
  
  num1 = num2 = num3 = 2+2
  
@@ -94,4 +93,4 @@ let gameCounter_1 = 100
 ++gameCounter_1;
 console.log(gameCounter_1)//101
 
-//Link To Study
+//Link To Study C
