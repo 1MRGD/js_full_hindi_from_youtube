@@ -81,7 +81,7 @@ let id = Symbol("id");     // Symbol
 console.log(typeof name);  // "string"
 console.log(typeof bigNumber); // "bigint"
 // console.log(typeof user);  // "object"
-console.log(typeof greet); // "function"
+console.log(typeof greet); // "function" 
 
 
 

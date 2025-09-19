@@ -1,96 +1,147 @@
-let Score = 33
-let Score1 = "33abc"
-let Score2 =  null
+// console.log("=====================By Using Numeric=============================")
+// let score = "12" 
 
-// console.log(typeof Score);//number
-// console.log(typeof (Score)); //number
-
-
-// let valueInNumber = Number(Score)
-// console.log(typeof Score);//number
-// console.log(typeof valueInNumber);  //number
-// console.log(valueInNumber) //33
-
-// let valueInNumber_1 = Number(Score1)
-// console.log(typeof Score1);//string
-// console.log(typeof valueInNumber_1); //number
-// console.log(valueInNumber_1) //NaN
-
-// let valueInNumber_2 = Number(Score2)
-// console.log(typeof Score2);//object
-// console.log(typeof valueInNumber_2); //number
-// console.log(valueInNumber_2) //0
+// console.log("Score is " + score)
+// console.log("Type " + typeof(score))
 
 
-//"33" => 33
-//"33abc" => Nan
-// true=>1 ; false=>0 
-
-//let isLoggedIn = 1 //true
-//let isLoggedIn = "GD" //true
+// console.log("=====================After Conversion=============================")    
 
 
-// let booleanIsLoggedIn = Boolean(isLoggedIn)
-// console.log(booleanIsLoggedIn);
-
-
-//1 => true ; 0 => False
-//"" => false
-//"gd" => true 
-
-let someNumber = 33
-
-let stringNumber = String(someNumber)
-// console.log(stringNumber); // 33
-// console.log(typeof(stringNumber)); // string
-
-
-/*===========================Operation=========================*/
-let value = 3;
-let negValue = -value;
-//console.log(negValue)
+// let valueInNumber = Number(score) // converting string to number
+// console.log("Score is " + valueInNumber)//12
+// console.log("Type Of " + typeof(valueInNumber))//number
 
 
 
-// console.log(2+2) //4
-// console.log(2-2) //0
-// console.log(2*2) //4
-// console.log(2**3)//8
-// console.log(2/3) //0.666666666666666666666
-// console.log(2%3) //2
-
-let str1 = "Hello"
-let str2 = " GD"
-
-
-// let str3 = str1+str2
-// console.log(str3) //Hello GD
-
-
-// console.log("1"+2);//12
-// console.log(1+"2");//12
-// console.log("1"+"2");//12
-// console.log("1"+2+2);//122
-// console.log(1+2+"2");//32 
+/* ================================================================================================ */
 
 
 
-// console.log((3+4) * 5 % 3); //2
-// console.log(+true); 
-// console.log(+"");
+// console.log("=====================By Using Alpha Numeric=============================")
 
 
-// let num1, num2, num3
-//  2+2/  
+// let score_1 = "12abc" 
+
+// console.log("Score is " + score_1)//12abc
+// console.log("Type of " + typeof(score_1))//string
+    
+// console.log("=================After Conversion============================")
+
+// let valueInNumber_1 = Number(score_1) // converting string to number
+// console.log("Score is " + valueInNumber_1)//NaN
+// console.log("Type of " + typeof(valueInNumber_1))//number
  
- num1 = num2 = num3 = 2+2
+
+// /* ================================================================================================ */
+
+
+// console.log("======================By Using Null============================")
+
+
+// let score_2 = null 
+// console.log("Score is " + score_2)//null
+// console.log("Type Of " + typeof(score_2))//object
+
+
+
+
+// console.log("=================After Conversion============================")
+
+
+// let valueInNumber_2 = Number(score_2) // converting string to number
+// console.log("Score is " + valueInNumber_2)//0
+// console.log("Type Of " + typeof(valueInNumber_2))//number
  
-let gameCounter = 100
-gameCounter++;
-console.log(gameCounter)//101
 
-let gameCounter_1 = 100
-++gameCounter_1;
-console.log(gameCounter_1)//101
+// /* ================================================================================================ */
 
-//Link To Study C
+
+// console.log("======================By Using undefined============================")
+
+
+// let score_3 = undefined
+// console.log("Score is " + score_3)//undefined   
+// console.log("Type Of " + typeof(score_3))//undefined
+
+
+
+    
+// console.log("=================After Conversion============================")
+
+
+// let valueInNumber_3 = Number(score_3) // converting 
+// // string to number
+// console.log("Score is " + valueInNumber_3)//0
+// console.log("Type Of " + typeof(valueInNumber_3))//number
+
+
+
+// /* ================================================================================================ */
+
+
+// console.log("======================By Using Boolean============================")
+
+
+// let score_4= true
+// console.log("Score is " + score_4)//undefined   
+// console.log("Type Of " + typeof(score_4))//undefined
+
+
+
+    
+// console.log("=================After Conversion============================")
+
+// let valueInNumber_4 = Number(score_4) // converting 
+// // string to number
+// console.log("Score is " + valueInNumber_4)//1
+// console.log("Type Of " + typeof(valueInNumber_4))//number
+
+
+
+// // console.log("=================Some notes============================")
+
+// // "33" => 33
+// // "33abc" => NaN
+// // null => 0
+// // undefined => NaN
+// // true => 1
+// // false => 0
+
+ 
+// console.log("=============================================")
+
+
+// let isloggedIn = true
+
+// let booleanInNumber = Number(isloggedIn)
+    
+// console.log(booleanInNumber) 
+// console.log(typeof(booleanInNumber))
+
+// // If we write false it will give 0
+// // If we write true it will give 1
+// // True and False are boolean values
+
+// let isloggedIn_1 = false
+
+// let booleanInNumber_1 = Number(isloggedIn_1)
+    
+// console.log(booleanInNumber_1) 
+// console.log(typeof(booleanInNumber_1))     
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
