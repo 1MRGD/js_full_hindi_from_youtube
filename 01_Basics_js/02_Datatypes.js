@@ -16,7 +16,7 @@ so it doesn’t have a DOM or any browser-specific APIs like alert, document, wi
 
 
 console.log(3 +
-    3
+    3   
 ) ;   // code readeability should be high
 
 
@@ -24,18 +24,22 @@ console.log("GD");
 
 
 
-// let name = "GD"
-// let age = 20
-// let isLoggedIn = false 
-// let state;
+// let name = "GD" // String 
+// let age = 20 // Number
+// let isLoggedIn = false // Boolean 
+// let state; // Undefined
+// let person = null // Null
 
-// number => 2 to power 53 
+
+//number => 2 to power 53 //Range
+//Datatypes
+//===========
 //bigint 
 //string => ""
 //boolean => true/false
 //null =>standalone value 
-//undefined  
-
+//undefined =>
+//symbol => unique
 
 /*
 Primitive data types are the basic building blocks and are stored directly by value.

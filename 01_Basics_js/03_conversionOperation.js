@@ -130,15 +130,51 @@
 // console.log(booleanInNumber_1) 
 // console.log(typeof(booleanInNumber_1))     
 
+// *********************** Operations **************************
 
 
+let value= 3
+// let negValue = -value
+
+// console.log(negValue)  // -3
+// console.log(typeof(negValue)) // number
 
 
+// console.log(2+2)
+// console.log(2-2)
+// console.log(2*2)
+// console.log(2/2)
+// console.log(2**3) // 2^3 = 2*2*2 = 8
+// console.log(10%3) // 1 (Remainder)
+
+let str1 = "Hello"
+let str2 = " GD"
 
 
+let str3 = str1 + str2
+    
+// console.log(str3) // Hello GD
+// console.log(typeof(str3)) // string
 
 
+// console.log(3 + "3")
+// console.log("3" + "3")
+// console.log("3" + 3)
+// console.log(2+3 + "3") // 53
 
+// console.log(+true)
+// console.log(+false)
+// console.log(+"") // 0
+
+
+let num1 , num2 , num3 
+
+
+num1 = num2 = num3 = 2 + 2
+
+let gameCounter = 100
+++gameCounter;
+console.log(gameCounter) // 101
 
 
 
