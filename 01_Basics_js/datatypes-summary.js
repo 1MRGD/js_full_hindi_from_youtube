@@ -45,3 +45,33 @@ let myobj = {
 const myFunction = function() {
     console.log("Hello World")
 }
+
+
+
+// **************************************************
+
+
+// Stack (Primitve) , Heap  (Non-Primitve) 
+
+
+let MyIg_Name = "gd" // Stack
+
+let anotherName = MyIg_Name // Stack
+anotherName = "new gd"
+
+console.log(MyIg_Name) // gd
+console.log(anotherName) // new gd
+
+
+let user  = {
+    email: "gd@example.com",
+    upi : "gd@okicici"
+}
+ 
+
+let user2 = user // Heap
+
+user2.email = "newgd@example.com"
+
+console.log(user.email) // newgd@example.com
+console.log(user2.email) // newgd@example.com
